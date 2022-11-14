@@ -1,0 +1,63 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color:#333;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    width: 90vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.logo {
+    max-width: 200px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .products {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    
+}
+
+.product-img {
+    width: 100%;
+}
+
+.product-tittle {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.product-price {
+    text-align: center !important;
+    font-weight: bold;
+    font-size: 18px;
+    }
+
+.suscribirse {
+    text-align: center;
+    margin: 60px 0px;
+}
+
+.suscribirse h3 {
+    font-weight: 400;
+}
